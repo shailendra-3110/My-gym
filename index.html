@@ -1,0 +1,236 @@
+<html>
+<head>
+    
+    <title>MCA/10031/19</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+    
+    body {
+        font-family: normal;
+		font-weight: bolder;
+        color: red;
+        margin: 0px;
+        padding: 0px;
+        background-image:url("https://www.freshnlean.com/wp-content/uploads/2021/02/shutterstock_1488021137-1024x535.jpg");
+		background-repeat:no-repeat;
+		background-size:1550px 950px;
+      
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 30px;
+		
+    }
+
+    .left img {
+        width: 170px;
+        padding: 10px;
+    }
+
+    .left div {
+        line-height: 33px;
+        font-size: 30px;
+        font-weight: 800;
+		font-style:inherit;
+        text-align: center;
+		color: lime;
+		
+    }
+
+    .mid {
+        display: block;
+        width: 60%;
+        margin: 30px auto;
+        
+    }
+
+    .right {
+        position: absolute;
+        right: 70px;
+        top: 43px;
+        display: inline-block;
+        
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: red;
+        text-decoration: none;
+        padding: 0px 15px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: yellow;
+
+    }
+
+    .btn {
+        font-family: cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: red;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: green;
+    }
+
+    .container {
+        border: 3px solid rgb(255, 0, 0);
+        margin: 40px 40px;
+        padding: 15px;
+        width: 25%;
+        border-radius: 30px;
+		float : right;
+       
+    }
+
+    .form-group input {
+        font-family: cursive;
+        text-align: center;
+        display: inline-block;
+        width: 350px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 15px 11px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+		color: #FB9300;
+        font-weight: bold;
+    }
+
+    .container button {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    @media (max-width:1418px){
+        body{
+        font-family: normal;
+		font-weight: bold;
+        color: red;
+        font-size: 15px;
+        background-image:url("https://www.freshnlean.com/wp-content/uploads/2021/02/shutterstock_1488021137-1024x535.jpg");
+		background-repeat:no-repeat;
+        }
+        .form-group input {
+        font-family: normal;
+        text-align: center;
+        display: block;
+        width: 200px;
+        padding: 1px;
+        border: 1px solid black;
+        margin: 5px auto;
+        font-size: 10px;
+        border-radius: 10px;
+    }
+    .btn {
+        font-family: cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: red;
+        padding: 2px 5px;
+        border: 1px solid grey;
+        border-radius: 20px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+   .left .ft{
+       font-size: 20px;
+   }
+
+    .lft-img{
+        width:100px;
+        height:120px;
+
+    }
+    }
+	
+    </style>
+</head>
+
+<body>
+
+        <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+               <img class="lft-img" src="https://images.click.in/classifieds/images/75/19_01_2018_11_38_22_37375ab67fc7ca6e6ecb1d8ea36cd505_ne9whsmgl1.png">
+            <div class = "ft">FIGHT CLUB</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Membership</a></li>
+				<li><a href="#">Login</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Contact Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+	
+        <div class="container">
+            <h1>Join the best gym now !!</h1>
+		
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+        </div>
+</body>
+
+</html>
